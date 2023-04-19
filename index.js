@@ -1,8 +1,5 @@
 const generatePDF = async (link)=>{
 
-  
-
-
     const url = new URL(link);
     // const namepart = url.pathname.split("/"); // split the path into parts using the forward slash as the delimiter
     // const name = decodeURI(namepart[4]); // get the 3rd part (index 2) which contains the name
@@ -211,4 +208,4 @@ const generatePDF = async (link)=>{
 
 };
 
-generatePDF("http://127.0.0.1:5500/course-participant/certificate/PS042447IN/cec47bbb-7532-4731-9aaf-1a32ba5f3d4c");
+generatePDF(currentUrl);
