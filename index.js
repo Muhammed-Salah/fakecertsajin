@@ -211,4 +211,4 @@ const generatePDF = async (link)=>{
 
 };
 
-generatePDF("http://127.0.0.1:5500//course-participant/certificate/PS042447IN/cec47bbb-7532-4731-9aaf-1a32ba5f3d4c");
+generatePDF("http://127.0.0.1:5500/course-participant/certificate/PS042447IN/cec47bbb-7532-4731-9aaf-1a32ba5f3d4c");
